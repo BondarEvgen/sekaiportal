@@ -9,13 +9,13 @@ This document tracks the project's progress, architectural decisions, and curren
 - **Backend:** Laravel 13 and PHP 8.5
 - **Docker environment:** Laravel Sail
 - **Database:** MySQL 8.4
-- **Cache and queues:** Redis
+- **Cache, queues, and sessions:** database drivers currently; Redis is available for future configuration
 - **Local email testing:** Mailpit
 - **Frontend:** Blade, Laravel Livewire 4, and Alpine.js
 - **Styling:** Tailwind CSS 4
 - **Frontend build tool:** Vite 8
 - **Administration panel:** Filament; the version will be selected after verifying compatibility with Laravel 13 and Livewire 4
-- **Localization:** Russian and English interface and product content
+- **Localization:** Spanish storefront in MVP; English storefront later; administration initially in English
 - **Payments:** an internal fake payment gateway first, followed by integration with a real payment provider
 
 ---
