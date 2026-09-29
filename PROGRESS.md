@@ -37,7 +37,11 @@ This document tracks the project's progress, architectural decisions, and curren
 ### Phase 2: Product Catalog Database
 
 - [ ] Finalize the catalog domain model
-- [ ] Create the `categories` migration and model
+- [x] Create the `categories` migration and model
+- [x] Create the `category_translations` migration and model
+- [x] Create category and category translation factories
+- [x] Test category relationships and translation constraints
+- [x] Test category deletion restrictions and translation cascading
 - [ ] Create the `products` migration and model
 - [ ] Create the `product_variants` migration and model
 - [ ] Create the product attribute migrations and models
